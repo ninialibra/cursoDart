@@ -10,7 +10,13 @@ main() {
 
   print(resp);
 
-  int d = b ?? a;
+  int d = b ?? a ?? 100;
 
   print(d);
+
+  int i = 10;
+  String j = '10';
+
+  print(i is int);
+  print(j is! int);
 }
