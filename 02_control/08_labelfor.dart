@@ -1,8 +1,1 @@
-main(){
-
-  outerLoop;
-  for(){
-    
-  }
-
-}
+main() {}
